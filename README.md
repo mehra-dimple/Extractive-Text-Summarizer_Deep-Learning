@@ -25,29 +25,40 @@ The objective of this project building a neural network with TensorFlow that can
 hence the name of sequence 2 sequence(seq2seq), sequence of inputs to sequence of outputs, which is the main algorithm that we use in building the model.
 
 
-
 ## Architecture Diagram ##
 
-![](FrontEnd/Architecture.jpg)
+![](Architecture/architecture.jpg)
 
+## Implementation ##
 
-## Persona ##
+* 	Data Pre-processing:
+    1.Ambiguities is caused by various verb sorts of one word, different accepted spellings of a specific word, plural and singular terms of the identical things. Moreover,         words sort of a, an, the, is, of etc. are referred to as stop words. These are certain high frequency words that don't carry any information and don’t serve any purpose       towards our goal of summarization. 
+    2.All the pre-processing steps are carried out using a library in python called as Natural Language Toolkit (NLTK). 
+    3.During this phase we do:
+      Document Segmentation
+      Paragraph Segmentation
+      Word Normalization
+      Stop Word Filtering
+      PoS Tagging
 
-![](FrontEnd/Police.png)
+* 	Feature Extraction:
+    1.Once the complexity has been reduced and ambiguities are removed, the document is structured into a sentence-feature matrix. 
+    2.A feature vector is extracted for every sentence. These feature vectors frame the matrix. 
+    3.The mix of the subsequent 9 sentence features has clad best suited to summarize factual reports.
+    4.These computations are done on the text obtained after the pre-processing phase: Number of thematic words, Sentence position, Sentence length, Sentence position               relative to paragraph etc.
 
+* 	Feature Enhancement:
+    1.The sentence-feature matrix has been generated with each sentence having 9 feature vector values. 
+    2.After this, recalculation is completed on this matrix to reinforce and abstract the feature vectors, so on build complex features out of easy ones. This step improves         the standard of the summary.
+    3.The RBM that we are using has 9 perceptrons in each layer with a learning rate of 0.1. 
+    4.We've trained RBM for fourteen epochs with a batch size of 5 and 5 parallel Gibbs Chains, used for sampling using Persistent CD method. 
 
-![](FrontEnd/EMT.png)
+* 	Summary Generation:
+    1.The enhanced feature vector values are summed to come up with a score against each sentence. The sentences are then sorted in line with decreasing score value. 
+    2.The foremost relevant sentence is that the first sentence during this sorted list and is chosen as a part of the subset of sentences which can form the summary. 
+    3.This process is recursively and incrementally repeated to pick out more sentences until a user specified summary limit is reached.
+    4.The sentences are then re-arranged within the order of appearance within the original text. This produces a coherent summary instead of a group of haywire sentences.
 
-
-## Technology Stack ##
-* 	Deep CNN to classify the sound.
-* 	Log scaled mel-spectrogram to observe time frequency patches.
-* 	Machine-Learning : Python 
-* 	Keras for Deep Learning Model implementation
-* 	Librosa for analysis of audio signals.
-*   IBM cloud to host the front-end
-*   AWS cloud to host the middleware and back-end
-*   Angular JS and AJAX based User-Interface
 
 ## Video Trailer ##
 
