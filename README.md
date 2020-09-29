@@ -62,7 +62,7 @@ hence the name of sequence 2 sequence(seq2seq), sequence of inputs to sequence o
 
 ## Video Trailer ##
 
-https://app.vyond.com/videos/a754695e-ceca-4c6b-9224-344f87f3fcf0
+https://app.vyond.com/videos/a754695e-ceca-4c6b-9224-344f87f3fcf01
 
 ## Link to HomePage ##
 
