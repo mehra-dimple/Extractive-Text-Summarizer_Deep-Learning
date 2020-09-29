@@ -1,4 +1,4 @@
-# Extractive Text Summarization
+# Extractive Text Summarization - Deep Learning
 
 ## Project Title ##  
 Extractive Text Summarization  
