@@ -1,0 +1,15 @@
+Prerequistes
+Python 3.6
+Numpy
+Scipy
+Theano
+NLTK
+Anaconda Pillow Library
+
+To run the Project:
+
+Clone this repository
+git clone https://cs577-s20-Dimple-Mehra@bitbucket.org/cs577-s20-Dimple-Mehra/cs577-s20-dimple-mehra.git
+Place your sample text files in ./articles folder. Some sample articles are already kept for Testing.
+Run python ExtractiveSummarizer.py to summarize the articles.
+You will get the summarized outputs in ./outputs folder.
