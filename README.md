@@ -27,7 +27,7 @@ hence the name of sequence 2 sequence(seq2seq), sequence of inputs to sequence o
 
 ## Architecture Diagram ##
 
-<img src=".\Architecture\architecture.PNG>
+<img src="./Architecture/architecture.PNG>
 
 ## Implementation ##
 
