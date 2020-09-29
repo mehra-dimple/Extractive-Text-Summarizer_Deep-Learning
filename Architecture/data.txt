@@ -1,4 +1,4 @@
-Prerequistes
+Prerequiste's
 Python 3.6
 Numpy
 Scipy
