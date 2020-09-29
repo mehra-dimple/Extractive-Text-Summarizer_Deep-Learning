@@ -67,7 +67,16 @@ hence the name of sequence 2 sequence(seq2seq), sequence of inputs to sequence o
     <img src="./Architecture/featurvsenhanced_sum.png">
     
     Feature Extraction and Enhancement is disbursed as proposed in above sections for all documents. The values of feature vector and enhanced feature vector for every           sentence of 1 such document are plotted in Fig 2. The Restricted Boltzmann Machine has extracted a hierarchical representation out of information that originally didn't       have much variation, hence discovering the latent factors. The sentences have then been ranked on the premise of ultimate feature vector and summaries are generated.
-
+    
+    <img src="./Architecture/precisionvalues.png">
+    
+    Evaluation of the system-generated summaries is completed supported three basic measures: Precision, Recall and F-Measure [18].
+    
+    <img src="./Architecture/recallvalues.png">
+    
+    It is seen that because the number of sentences within the original document cross a particular threshold, the Restricted Boltzmann Machine has ample data to be trained        successfully and summaries with high precision and recall values are generated. See Fig 3 and 4.
+    
+    <img src="./Architecture/Fmeasurevalues.png">
 
 ## Video Trailer ##
 
