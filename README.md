@@ -27,7 +27,7 @@ hence the name of sequence 2 sequence(seq2seq), sequence of inputs to sequence o
 
 ## Architecture Diagram ##
 
-![](Architecture/architecture.jpg)
+![Architecture](https://github.com/mehra-dimple/Extractive-Text-Summarizer_Deep-Learning/Architecture/architecture.PNG)
 
 ## Implementation ##
 
