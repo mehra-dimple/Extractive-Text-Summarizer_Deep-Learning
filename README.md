@@ -59,6 +59,13 @@ hence the name of sequence 2 sequence(seq2seq), sequence of inputs to sequence o
     3.This process is recursively and incrementally repeated to pick out more sentences until a user specified summary limit is reached.
     4.The sentences are then re-arranged within the order of appearance within the original text. This produces a coherent summary instead of a group of haywire sentences.
 
+## Results ##
+
+* 	We have tested the model on several text articles and generated the output(a summary of respective article) and attached are the results for reference:
+    Several factual reports from various domains of health, technology, news, sports etc. with varying number of sentences were used for experimentation and evaluation. The       proposed algorithm was run on each of these and system-generated summaries were compared to the summaries produced by humans.
+    <img src="./Architecture/featurvsenhanced_sum.PNG">
+    Feature Extraction and Enhancement is disbursed as proposed in above sections for all documents. The values of feature vector and enhanced feature vector for every           sentence of 1 such document are plotted in Fig 2. The Restricted Boltzmann Machine has extracted a hierarchical representation out of information that originally didn't       have much variation, hence discovering the latent factors. The sentences have then been ranked on the premise of ultimate feature vector and summaries are generated.
+
 
 ## Video Trailer ##
 
