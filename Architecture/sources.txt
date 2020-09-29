@@ -1,0 +1,13 @@
+5.References:
+1.Research Paper-: Extractive Text Summarization Using Deep Learning
+	Author’s: Nikhil S. Shirwandkar, Samidha Kulkarni
+	Year of publication: 2019
+	Name of publication: IEEE (2018 Fourth International Conference on Computing Communication Control and Automation (ICCUBEA))
+ 
+2.Zhang, Y., Wang, D., Li, T.: iDVS - An Interactive Multi-Document Visual Summarization System: Machine Learning and Knowledge Discovery in Databases, LNCS,
+vol. 6913, pp. 569-584. Springer, Heidelberg (2006). doi: 10.1007/978-3-642-23808-
+6 37
+3.Wan, X., Xiao, J.: Single Document Keyphrase Extraction using Neighborhood Knowledge. In: Proceedings of the Twenty-Third AAAI Conference on Artificial Intelligence (2008).
+4.H. P. Luhn, “The automatic creation of literature abstracts,” IBM Journal of Research Development, vol. 2, no. 2, pp. 159-165, 1958.
+5.RBM, rbm.py [Online] Available: http://deeplearning.net/tutorial/code/rbm.py [Accessed: April 22, 2020]
+6.Logistic_sgd, logistic_sgd.py [Online] Available: http://deeplearning.net/tutorial/code/logistic_sgd.py [Accessed: April 22, 2020]
