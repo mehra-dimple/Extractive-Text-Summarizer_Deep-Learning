@@ -62,20 +62,10 @@ hence the name of sequence 2 sequence(seq2seq), sequence of inputs to sequence o
 
 ## Video Trailer ##
 
-https://app.vyond.com/videos/a754695e-ceca-4c6b-9224-344f87f3fcf01
+https://drive.google.com/file/d/1H-tAyHTjPZ7NAy8bv1Qp_m14hzTba0ET/view?usp=sharing
 
-## Link to HomePage ##
-
-http://79.5c.c1ad.ip4.static.sl-reverse.com.:31963/
 
 ## Home Page ##
 
 ![](FrontEnd/sp.png)
 
-## Email Alert for Gunshot ##
-
-![](Alert%20Messages/Email%20alert.jpeg)
-
-## Text Message Alert for Gunshot ##
-
-![](Alert%20Messages/Message%20Alert.jpeg)
